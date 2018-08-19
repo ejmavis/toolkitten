@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Day 2 Homework Tasks</h1>
+    <h2>Music Task</h2>
+    <p> Given that A has a frequency of 440Hz and the A in the next octave has a frequency of 880Hz, calculate the frequencies of all the notes in one octave.</p>
+    <button id='musicbutton' type='button'>Music</button>
+    <!-- <script type='text/javascript' src="homeworkday3.js"></script> -->
+    <p id='music'></p>
+    <script>
+        document.getElementById('musicbutton').onclick = function(){
+            document.getElementById("music").style.color = "blue";
+            document.getElementById('music').innerHTML = musicFreq();
+        }
+        </script>
+
+    <h1>Day 3 Homework Tasks</h1>
+    <h2>Full Name Greeter</h2>
+    <p>Write a script to get the user to enter their full name (first, middle and last) and then use this to greet the user using their full name.</p>
+    <button id='btn1' button type="button" >Full Name Greeting</button>
+    <script type="text/javascript"  src="homeworkday3.js" ></script>
+    <p id="name"></p>
+    <script>
+        document.getElementById('btn1').onclick = function(){
+            document.getElementById("name").style.color = "blue";
+            document.getElementById("name").innerHTML = askName();
+        }
+        </script>
+    <h2>Favourite Number</h2>
+    <p>A script to ask the user for their favourite number and to suggest one that is bigger and better.</p>
+    <button id ='numchoose' type = "button">Number Chooser</button>
+    <p id="favNumber"></p>
+    <script>
+        document.getElementById('numchoose').onclick = function(){
+            document.getElementById("favNumber").style.color = "blue";
+            document.getElementById("favNumber").innerHTML = chooseNum();
+        }
+        </script>
+    <h2>Angry Boss</h2>
+    <p>The boss rudely asks you what you want, shouts it back to you and fires you.</p>
+    <button id = 'angry' type = button>Angry Boss</button>
+    <p id='bossanswer'></p>
+    <script>
+        document.getElementById('angry').onclick = function(){
+            document.getElementById('bossanswer').style.color = "red";
+            document.getElementById('bossanswer').innerHTML = angryBoss();
+        }
+        </script>
+    <h2>Table of contents</h2>
+    <p>Produce a correctly aligned table of contents</p>
+    <button id = 'contents' type = 'button'>Table of Contents</button>
+    <p id='table'></p>
+    <script>
+        document.getElementById('contents').onclick = function(){
+            document.getElementById('table').style.color = "blue";
+            document.getElementById('table').innerHTML = tableContents();
+        }
+            </script>
+</body>
+</html>
