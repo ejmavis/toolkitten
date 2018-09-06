@@ -28,5 +28,7 @@ function myAsyncFunction(url) {
   });
 }
 
+// => called arrow function ECMAScript function{} shorthand for bracket
+// Look at Documentation for more info.  Lazy man's function or syntax sugar.
 
 
